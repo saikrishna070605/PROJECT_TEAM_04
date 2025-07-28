@@ -18,4 +18,26 @@ body {
             overflow-x: hidden;
         }
 
+.hero-section {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, #000000, #333333);
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 70%, #FFD700 0%, transparent 50%),
+                        radial-gradient(circle at 80% 30%, #FFA500 0%, transparent 50%);
+            opacity: 0.1;
+            animation: pulse 4s ease-in-out infinite alternate;
+        }
 
