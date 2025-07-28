@@ -117,4 +117,14 @@ body {
             background-clip: text;
             position: relative;
         }
+.section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, #FFD700, #FFA500);
+        }
 
