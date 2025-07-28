@@ -40,4 +40,28 @@ body {
             opacity: 0.1;
             animation: pulse 4s ease-in-out infinite alternate;
         }
+   @keyframes pulse {
+            0% { opacity: 0.05; }
+            100% { opacity: 0.15; }
+        }
+
+        .hero-content {
+            text-align: center;
+            z-index: 2;
+            position: relative;
+        }
+
+        .logo {
+            font-size: 4rem;
+            font-weight: 900;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
 
