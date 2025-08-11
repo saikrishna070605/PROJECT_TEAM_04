@@ -94,8 +94,8 @@ Emojipedia
 
 💬 Contact
 For feedback or collaboration:
-Email: yourname@example.com
-GitHub: @yourusername
+Email: sky@.com
+GitHub: saikrishna
 
 python
 Copy
